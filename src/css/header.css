@@ -5,7 +5,6 @@
 }
 .container.header-container {
   display: flex;
-
   align-items: center;
   justify-content: space-between;
 }
@@ -194,7 +193,7 @@
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  gap: 24px;
 }
 .mobile-menu-close {
   position: absolute;
@@ -256,22 +255,20 @@
   gap: 24px;
 }
 .mobile-menu-address {
-  margin-bottom: auto;
+  flex-grow: 1;
+}
+.mobile-menu-social {
+  margin-top: auto;
 }
 .mobile-menu-social .social-icons {
   display: flex;
   justify-content: space-between;
-}
-.social-icons {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
   gap: 24px;
 }
 .icons {
   width: 40px;
   height: 40px;
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-icons {

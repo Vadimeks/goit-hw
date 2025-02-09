@@ -17,28 +17,16 @@ ul {
   padding: 0;
   list-style: none;
 }
-
-a {
-  color: currentColor;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-button {
-  cursor: pointer;
-}
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.hidden {
-  display: none;
-}
+
 a,
 button {
   text-decoration: none;
   color: #2e2f42;
   font-style: normal;
+  cursor: pointer;
 }
