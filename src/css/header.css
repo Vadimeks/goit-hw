@@ -193,7 +193,7 @@
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  height: 100%;
 }
 .mobile-menu-close {
   position: absolute;
@@ -229,6 +229,7 @@
 .mobile-nav-items {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #404bbf;
 }
@@ -254,15 +255,16 @@
   gap: 24px;
 }
 .mobile-menu-address {
-  flex-grow: 1;
-}
-.mobile-menu-social {
-  margin-top: auto;
+  margin-bottom: auto;
 }
 .mobile-menu-social .social-icons {
   display: flex;
   justify-content: space-between;
+}
+.social-icons {
+  display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 24px;
 }
 .icons {
