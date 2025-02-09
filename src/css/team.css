@@ -1,6 +1,6 @@
 .team-section {
   background-color: #f4f4fd;
-  padding: 96px 15px;
+  padding: 96px 0px;
   margin: 0 auto;
 }
 .header-two {
@@ -82,7 +82,7 @@
 }
 @media screen and (min-width: 768px) {
   .team-section {
-    padding: 96px 16px;
+    padding: 96px 0;
   }
   .team-list {
     flex-direction: row;
